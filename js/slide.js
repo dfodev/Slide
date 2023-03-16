@@ -201,6 +201,5 @@ export class SlideNav extends Slide {
   bindControlEvents() {
     this.eventControl = this.eventControl.bind(this);
     this.activeControlItem = this.activeControlItem.bind(this);
-
   }
 }
